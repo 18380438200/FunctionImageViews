@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundImageView">
+        <attr name="type" format="integer" /><!-- "Round=1"、"Circle=0"只能写这两种-->
+        <attr name="radius_imageview" format="dimension" />
+        <attr name="height_imageview" format="dimension" />
+        <attr name="width_imageview" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RatioImageView">
+        <attr name="is_width_fix_drawable_size_ratio" format="boolean"/>
+        <attr name="is_height_fix_drawable_size_ratio" format="boolean"/>
+        <!-- 高度设置，参考宽度，如0.5 , 表示 高度＝宽度×０.5 -->
+        <attr name="height_to_width_ratio" format="float"/>
+        <!-- 宽度设置，参考高度，如0.5 , 表示 宽度＝高度×０.5 -->
+        <attr name="width_to_height_ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+</resources>
